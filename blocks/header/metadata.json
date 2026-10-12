@@ -1,0 +1,30 @@
+{
+  "variantName": "header",
+  "baseBlock": "header",
+  "canonicalModel": "configuration",
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "complexity": "advanced",
+    "density": "moderate"
+  },
+  "contentPattern": {
+    "summary": "Global site header loaded from the /nav fragment: utility bar (sign in, language selector) above a main bar with logo (brand), primary nav links and a search field (tools).",
+    "rows": "fragment sections (brand, sections, tools)",
+    "hasImages": true,
+    "hasLinks": true
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine.html",
+        "instanceId": "header-global",
+        "screenshot": ".pages/_global/header.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "options": [],
+  "memberVariantIds": [
+    "header-global"
+  ]
+}

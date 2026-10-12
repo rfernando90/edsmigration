@@ -1,0 +1,176 @@
+{
+  "templates": [
+    {
+      "name": "section-landing",
+      "urls": [
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/about-us.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine.html"
+      ],
+      "coverageGaps": [],
+      "description": "Top-level section page with title, optional hero, and grids/tabs of listing cards or profile tiles",
+      "blocks": []
+    },
+    {
+      "name": "adventure-detail",
+      "urls": [
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/bali-surf-camp.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/beervana-portland.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/climbing-new-zealand.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/colorado-rock-climbing.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/cycling-southern-utah.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/cycling-tuscany.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/downhill-skiing-wyoming.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/gastronomic-marais-tour.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/napa-wine-tasting.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/riverside-camping-australia.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/ski-touring-mont-blanc.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/surf-camp-costa-rica.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/tahoe-skiing.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/west-coast-cycling.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/whistler-mountain-biking.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/yosemite-backpacking.html"
+      ],
+      "coverageGaps": [],
+      "description": "Detail page with breadcrumbs, image carousel, title and tabbed information panels",
+      "blocks": []
+    },
+    {
+      "name": "faq",
+      "urls": [
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/faqs.html"
+      ],
+      "coverageGaps": [],
+      "description": "Single-column page with title and question/answer content",
+      "blocks": []
+    },
+    {
+      "name": "homepage",
+      "urls": [
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en.html"
+      ],
+      "coverageGaps": [],
+      "description": "Landing page with hero carousel, featured teasers, card grids and promotional content sections",
+      "blocks": [
+        {
+          "name": "carousel",
+          "instances": [
+            ".carousel.cmp-carousel--hero"
+          ]
+        },
+        {
+          "name": "columns-featured",
+          "instances": [
+            ".teaser.cmp-teaser--featured"
+          ]
+        },
+        {
+          "name": "cards",
+          "instances": [
+            ".image-list.list"
+          ]
+        },
+        {
+          "name": "hero",
+          "instances": [
+            ".teaser.cmp-teaser--hero.cmp-teaser--imagebottom"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero carousel",
+          "selector": [
+            ".carousel.cmp-carousel--hero"
+          ],
+          "style": null,
+          "blocks": [
+            "carousel"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Featured article",
+          "selector": [
+            ".teaser.cmp-teaser--featured"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-featured"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Recent articles",
+          "selector": [
+            ".teaser.cmp-teaser--featured + .title.cmp-title--underline"
+          ],
+          "style": null,
+          "blocks": [
+            "cards"
+          ],
+          "defaultContent": [
+            ".teaser.cmp-teaser--featured + .title .cmp-title__text",
+            ".teaser.cmp-teaser--featured ~ .button.cmp-button--primary"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Next adventures promo",
+          "selector": [
+            ".separator + .title.cmp-title--underline"
+          ],
+          "style": null,
+          "blocks": [
+            "hero"
+          ],
+          "defaultContent": [
+            ".separator + .title.cmp-title--underline .cmp-title__text"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Where do you want to go",
+          "selector": [
+            ".teaser.cmp-teaser--imagebottom + .container.cmp-layout-container--fixed"
+          ],
+          "style": null,
+          "blocks": [
+            "cards"
+          ],
+          "defaultContent": [
+            ".teaser.cmp-teaser--imagebottom + .container .cmp-title__text",
+            ".teaser.cmp-teaser--imagebottom + .container .button.cmp-button--primary"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "article",
+      "urls": [
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine/arctic-surfing.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine/ski-touring.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine/western-australia.html"
+      ],
+      "coverageGaps": [],
+      "description": "Long-form article with full-width hero image, breadcrumbs, byline, body with pull quote and inline images, related-articles sidebar and author bio",
+      "blocks": []
+    },
+    {
+      "name": "article-with-download",
+      "urls": [
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine/guide-la-skateparks.html",
+        "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine/san-diego-surf.html"
+      ],
+      "coverageGaps": [],
+      "description": "Long-form article with hero, breadcrumbs, byline, highlighted quote panel, sidebar with PDF download and related articles, and author bio",
+      "blocks": []
+    }
+  ],
+  "metadata": {
+    "projectType": "da"
+  }
+}

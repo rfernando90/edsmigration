@@ -1,0 +1,60 @@
+/* Quote — structural only. Brand color/typography/background are applied by the design pass. */
+.quote {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote .quote-image picture,
+.quote .quote-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.quote .quote-image img {
+  object-fit: cover;
+}
+
+.quote blockquote {
+  margin: 0;
+  padding: 1.5rem 1rem;
+}
+
+.quote .quote-quotation > :first-child {
+  margin-top: 0;
+}
+
+.quote .quote-quotation > :last-child {
+  margin-bottom: 0;
+}
+
+/* short divider under the quotation, only when an attribution follows */
+.quote .quote-quotation:has(+ .quote-attribution)::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 2px;
+  margin-top: 1rem;
+  background-color: currentcolor;
+}
+
+.quote .quote-attribution {
+  margin-top: 1.5rem;
+  text-align: left;
+}
+
+.quote .quote-attribution p {
+  margin: 0;
+}
+
+@media (width >= 600px) {
+  .quote blockquote {
+    padding: 2rem;
+  }
+}
+
+@media (width >= 900px) {
+  .quote blockquote {
+    padding: 2.5rem 3rem;
+  }
+}

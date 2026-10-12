@@ -1,0 +1,30 @@
+{
+  "variantName": "footer",
+  "baseBlock": "footer",
+  "canonicalModel": "configuration",
+  "visualCharacteristics": {
+    "colorScheme": "mixed",
+    "complexity": "simple",
+    "density": "moderate"
+  },
+  "contentPattern": {
+    "summary": "Global site footer loaded from the /footer fragment: top row with logo, primary nav links and social follow icons; below it copyright line and legal/attribution paragraphs with inline links.",
+    "rows": "fragment sections (brand + nav + social, legal text)",
+    "hasImages": true,
+    "hasLinks": true
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine.html",
+        "instanceId": "footer-global",
+        "screenshot": ".pages/_global/footer.jpg"
+      }
+    ],
+    "reuseCount": 1
+  },
+  "options": [],
+  "memberVariantIds": [
+    "footer-global"
+  ]
+}

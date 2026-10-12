@@ -1,0 +1,67 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "image"
+  },
+  "contentPattern": {
+    "summary": "Large full-width image with heading, optional supporting text and optional CTA placed below/over it; one catalog member is an author-profile variant (circular portrait, name, roles line, social icons).",
+    "rows": "single row: image + content (heading, text, CTA)",
+    "hasImages": true,
+    "hasLinks": true
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine/arctic-surfing.html",
+        "instanceId": "15efbb5e",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_magazine_arctic-surfing_html--bc30002e/blocks/15efbb5e.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine/ski-touring.html",
+        "instanceId": "15efbb5e",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_magazine_ski-touring_html--6e0aa386/blocks/15efbb5e.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine/western-australia.html",
+        "instanceId": "15efbb5e",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_magazine_western-australia_html--c624ea9b/blocks/15efbb5e.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures.html",
+        "instanceId": "780af56e",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_html--9020d3aa/blocks/780af56e.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine.html",
+        "instanceId": "2e2212c6",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_magazine_html--b4a36d2b/blocks/2e2212c6.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/about-us.html",
+        "instanceId": "6f668be4",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_about-us_html--b5b25e5d/blocks/6f668be4.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en.html",
+        "instanceId": "78b5b3",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_html--019e04bd/blocks/78b5b3.jpg"
+      }
+    ],
+    "reuseCount": 7,
+    "lastUsed": "2026-10-12T16:04:07.227Z"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_4a0b09f598a1",
+    "v_ce80ccd0f1fa",
+    "v_8db045795bae",
+    "v_9a6067da1d9c"
+  ]
+}

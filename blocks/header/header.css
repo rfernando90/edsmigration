@@ -1,3 +1,8 @@
+/* header block root */
+header .header {
+  width: 100%;
+}
+
 /* header and nav layout */
 header .nav-wrapper {
   background-color: var(--background-color);

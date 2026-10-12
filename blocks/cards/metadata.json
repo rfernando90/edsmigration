@@ -1,0 +1,44 @@
+{
+  "variantName": "cards",
+  "baseBlock": "cards",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "5 images + list"
+  },
+  "contentPattern": {
+    "summary": "Grid of cards; each row is one card with an image cell and a text body cell (heading, description, optional link).",
+    "rows": "one row per card",
+    "cells": [
+      "image",
+      "body"
+    ],
+    "hasImages": true,
+    "hasLinks": true
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine.html",
+        "instanceId": "71161d61",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_magazine_html--b4a36d2b/blocks/71161d61.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en.html",
+        "instanceId": "23f41a69",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_html--019e04bd/blocks/23f41a69.jpg"
+      }
+    ],
+    "reuseCount": 2,
+    "lastUsed": "2026-10-12T16:04:07.227Z"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_096172ab7f4e",
+    "v_ff3f792dc182"
+  ]
+}

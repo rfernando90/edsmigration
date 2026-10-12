@@ -1,0 +1,39 @@
+{
+  "variantName": "quote",
+  "baseBlock": "quote",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "heading + image"
+  },
+  "contentPattern": {
+    "summary": "Pull quote: quotation text with optional attribution line below a short divider, optionally paired with a full-width image placed above or below the quote.",
+    "rows": "optional image row, quotation row, optional attribution row",
+    "hasImages": true,
+    "hasLinks": false
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine/arctic-surfing.html",
+        "instanceId": "4017f8a4",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_magazine_arctic-surfing_html--bc30002e/blocks/4017f8a4.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/magazine/ski-touring.html",
+        "instanceId": "4017f8a4",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_magazine_ski-touring_html--6e0aa386/blocks/4017f8a4.jpg"
+      }
+    ],
+    "reuseCount": 2
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_b7118a52fdcc",
+    "v_b7118a52fdcc-1"
+  ]
+}

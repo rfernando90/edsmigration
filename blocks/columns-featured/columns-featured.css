@@ -1,0 +1,79 @@
+/* columns-featured: structural layout only — brand colors/typography come from the design pass */
+
+.columns-featured .columns-featured-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-featured .columns-featured-image picture,
+.columns-featured .columns-featured-image img {
+  display: block;
+  width: 100%;
+}
+
+.columns-featured .columns-featured-image img {
+  height: 100%;
+  object-fit: cover;
+}
+
+.columns-featured .columns-featured-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 24px;
+}
+
+.columns-featured .columns-featured-content > :first-child {
+  margin-top: 0;
+}
+
+.columns-featured .columns-featured-content > :last-child {
+  margin-bottom: 0;
+}
+
+.columns-featured .columns-featured-cta-link {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+@media (width >= 600px) {
+  .columns-featured .columns-featured-content {
+    padding: 32px;
+  }
+}
+
+@media (width >= 900px) {
+  .columns-featured .columns-featured-inner {
+    flex-direction: row;
+    align-items: stretch;
+  }
+
+  .columns-featured .columns-featured-image {
+    flex: 0 0 62%;
+    max-width: 62%;
+  }
+
+  /* image fills the full row height, however tall the content panel grows */
+  .columns-featured .columns-featured-image picture {
+    height: 100%;
+  }
+
+  .columns-featured .columns-featured-image img {
+    min-height: 100%;
+  }
+
+  .columns-featured .columns-featured-content {
+    flex: 1 1 38%;
+    padding: 40px;
+  }
+
+  .columns-featured.columns-featured-no-image .columns-featured-content {
+    flex-basis: 100%;
+  }
+}
+
+@media (width >= 1200px) {
+  .columns-featured .columns-featured-content {
+    padding: 48px;
+  }
+}

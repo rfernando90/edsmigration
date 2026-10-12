@@ -1,0 +1,121 @@
+{
+  "variantName": "carousel",
+  "baseBlock": "carousel",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "minimal",
+    "hasBackgroundImage": false,
+    "hasGrid": false,
+    "imagePattern": "large",
+    "structure": "2 CTAs + image + list"
+  },
+  "contentPattern": {
+    "summary": "Slideshow of 1+ full-width slides; each slide has a large image with optional heading, text and CTA below it; dot indicators centered and prev/next arrows on the right under the slides.",
+    "rows": "one row per slide",
+    "cells": [
+      "image",
+      "content (heading, text, CTAs)"
+    ],
+    "hasImages": true,
+    "hasLinks": true
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/bali-surf-camp.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_bali-surf-camp_html--bf895245/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/colorado-rock-climbing.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_colorado-rock-climbing_html--83c1ece2/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/cycling-southern-utah.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_cycling-southern-utah_html--f6e3e050/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/gastronomic-marais-tour.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_gastronomic-marais-tour_html--a10294c6/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/tahoe-skiing.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_tahoe-skiing_html--037c6dd0/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/west-coast-cycling.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_west-coast-cycling_html--b7dd3e80/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/yosemite-backpacking.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_yosemite-backpacking_html--d02d11ca/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/climbing-new-zealand.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_climbing-new-zealand_html--ba71c07c/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/cycling-tuscany.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_cycling-tuscany_html--3aa39672/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/downhill-skiing-wyoming.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_downhill-skiing-wyoming_html--84e6a412/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/riverside-camping-australia.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_riverside-camping-australia_html--7227e03e/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/ski-touring-mont-blanc.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_ski-touring-mont-blanc_html--291fc760/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/surf-camp-costa-rica.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_surf-camp-costa-rica_html--d4b7dce7/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/whistler-mountain-biking.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_whistler-mountain-biking_html--b24198ca/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/beervana-portland.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_beervana-portland_html--6c9d01c3/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en/adventures/napa-wine-tasting.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_adventures_napa-wine-tasting_html--f572e8d5/blocks/4c672112.jpg"
+      },
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en.html",
+        "instanceId": "4c672112",
+        "screenshot": ".pages/publish-p123750-e1339057_adobeaemcloud_com_content_wknd_us_en_html--019e04bd/blocks/4c672112.jpg"
+      }
+    ],
+    "reuseCount": 17,
+    "lastUsed": "2026-10-12T16:04:07.227Z"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_85f1e746e380",
+    "v_85f1e746e380-2",
+    "v_85f1e746e380-1",
+    "v_85f1e746e380-3"
+  ]
+}

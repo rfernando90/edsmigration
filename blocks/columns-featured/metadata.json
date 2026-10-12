@@ -1,0 +1,35 @@
+{
+  "variantName": "columns-featured",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "moderate",
+    "imagePattern": "large",
+    "structure": "image + pretitle + heading + text + CTA",
+    "hasGrid": false
+  },
+  "contentPattern": {
+    "summary": "Featured article teaser: a large image on the left (~62%) and a light grey (#ebebeb) panel on the right (~38%) with a small pretitle, large serif h2, small body text and a yellow (#FFEA00) uppercase CTA button",
+    "rows": "single row",
+    "cells": [
+      "image",
+      "content: pretitle paragraph, h2, paragraph, CTA link"
+    ],
+    "hasImages": true,
+    "hasLinks": true
+  },
+  "usage": {
+    "pagesUsing": [
+      {
+        "url": "https://publish-p123750-e1339057.adobeaemcloud.com/content/wknd/us/en.html"
+      }
+    ],
+    "reuseCount": 1,
+    "lastUsed": "2026-10-12T00:00:00.000Z"
+  },
+  "options": [],
+  "memberVariantIds": [
+    "v_9f1b9f67bda6"
+  ]
+}
