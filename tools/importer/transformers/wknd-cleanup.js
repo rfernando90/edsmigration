@@ -110,6 +110,15 @@ export default function transform(hookName, element, payload) {
     // Trailing separator (after "All Trips") - would create an empty section at page end
     WebImporter.DOMUtils.remove(element, ['.cmp-layout-container--fixed .separator:last-child']);
 
+    // CTAs (teaser action links, core-component buttons) -> bold links, which the
+    // EDS boilerplate decorates as primary buttons. Parsers move these anchors as-is.
+    element.querySelectorAll('a.cmp-teaser__action-link, a.cmp-button').forEach((a) => {
+      if (a.closest('strong')) return;
+      const strong = document.createElement('strong');
+      a.replaceWith(strong);
+      strong.append(a);
+    });
+
     // Internal link rewriting (same-host / root-relative only; img src untouched)
     element.querySelectorAll('a[href]').forEach((a) => {
       const next = rewriteHref(a.getAttribute('href'));

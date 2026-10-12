@@ -387,6 +387,12 @@ var CustomImportScript = (() => {
         "meta"
       ]);
       WebImporter.DOMUtils.remove(element, [".cmp-layout-container--fixed .separator:last-child"]);
+      element.querySelectorAll("a.cmp-teaser__action-link, a.cmp-button").forEach((a) => {
+        if (a.closest("strong")) return;
+        const strong = document.createElement("strong");
+        a.replaceWith(strong);
+        strong.append(a);
+      });
       element.querySelectorAll("a[href]").forEach((a) => {
         const next = rewriteHref(a.getAttribute("href"));
         if (next !== null) a.setAttribute("href", next);

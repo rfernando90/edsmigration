@@ -1,27 +1,69 @@
+/* Cards: WKND image list (Recent Articles, Where do you want to go?) */
 .cards > ul {
-  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
   margin: 0;
   padding: 0;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  list-style: none;
 }
 
 .cards > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
+  flex: 0 1 260px;
+  min-width: 0;
+  margin: 0 0 32px;
+  padding: 0;
 }
 
-.cards .cards-card-body {
-  margin: 16px;
-}
-
-.cards .cards-card-image {
-  line-height: 0;
-}
-
-.cards > ul > li img {
+/* image: fixed 200px crop; source cell is 207px (inline img + line-box descent),
+   made explicit so it does not depend on standards vs quirks rendering */
+.cards .cards-card-image img {
+  display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: 200px;
+  margin: 0 0 7px;
   object-fit: cover;
+  object-position: center center;
+}
+
+.cards .cards-card-body > :first-child {
+  margin-top: 0;
+}
+
+.cards .cards-card-body h3 {
+  margin: 0;
+  color: var(--text-color);
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m);
+  font-weight: 600;
+  line-height: 27px;
+  text-transform: uppercase;
+}
+
+.cards .cards-card-body h3 a:any-link,
+.cards .cards-card-body h3 a:hover {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+.cards .cards-card-body p {
+  margin: 16px 0 0;
+  overflow: hidden;
+  color: var(--secondary-text-color);
+  font-size: var(--body-font-size-xs);
+  line-height: 21px;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+@media (width >= 768px) {
+  .cards > ul {
+    justify-content: normal;
+  }
+
+  .cards > ul > li {
+    padding-right: 14px;
+  }
 }

@@ -1,6 +1,16 @@
-/* columns-featured: structural layout only — brand colors/typography come from the design pass */
+/* columns-featured: WKND featured article teaser (values from source .cmp-teaser--featured) */
 
+.columns-featured {
+  margin-bottom: 18px;
+}
+
+/* mobile: text panel first, image below (source flex-direction: column on row-reverse markup) */
 .columns-featured .columns-featured-inner {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.columns-featured .columns-featured-image {
   display: flex;
   flex-direction: column;
 }
@@ -14,66 +24,74 @@
 .columns-featured .columns-featured-image img {
   height: 100%;
   object-fit: cover;
+  object-position: center top;
 }
 
 .columns-featured .columns-featured-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding: 24px;
+  margin-top: -18px;
+  padding: 63px 36px 36px;
+  background-color: var(--light-color);
 }
 
-.columns-featured .columns-featured-content > :first-child {
-  margin-top: 0;
+.columns-featured .columns-featured-content p {
+  margin: 0;
+  font-size: var(--body-font-size-xs);
+  line-height: 1.75;
+  text-align: left;
 }
 
-.columns-featured .columns-featured-content > :last-child {
-  margin-bottom: 0;
+.columns-featured .columns-featured-content p.columns-featured-pretitle {
+  margin: 0 0 13.5px;
+  font-size: var(--body-font-size-m);
+  font-weight: 700;
+  line-height: 2.5;
+  text-align: justify;
 }
 
-.columns-featured .columns-featured-cta-link {
-  display: inline-block;
+.columns-featured .columns-featured-content .columns-featured-title {
+  margin: 18px 0;
+  font-size: var(--heading-font-size-xl);
+  line-height: 1.5;
+}
+
+.columns-featured .columns-featured-content p.columns-featured-cta {
+  margin: 18px 0;
+  line-height: inherit;
+}
+
+main .columns-featured a.button:any-link,
+main .columns-featured .columns-featured-cta-link {
+  padding: 14px 35px;
+  font-size: var(--body-font-size-xs);
+  font-weight: 600;
+  line-height: 21px;
   text-transform: uppercase;
 }
 
-@media (width >= 600px) {
-  .columns-featured .columns-featured-content {
-    padding: 32px;
-  }
-}
-
-@media (width >= 900px) {
+@media (width >= 768px) {
   .columns-featured .columns-featured-inner {
-    flex-direction: row;
-    align-items: stretch;
+    flex-flow: row wrap;
   }
 
+  /* image fills the full row height set by the content panel */
   .columns-featured .columns-featured-image {
-    flex: 0 0 62%;
-    max-width: 62%;
+    position: relative;
+    flex: 2 1 0%;
   }
 
-  /* image fills the full row height, however tall the content panel grows */
   .columns-featured .columns-featured-image picture {
-    height: 100%;
-  }
-
-  .columns-featured .columns-featured-image img {
-    min-height: 100%;
+    position: absolute;
+    inset: 0;
   }
 
   .columns-featured .columns-featured-content {
-    flex: 1 1 38%;
-    padding: 40px;
+    flex: 1 1 0%;
+    margin-top: 0;
   }
 
   .columns-featured.columns-featured-no-image .columns-featured-content {
     flex-basis: 100%;
-  }
-}
-
-@media (width >= 1200px) {
-  .columns-featured .columns-featured-content {
-    padding: 48px;
   }
 }

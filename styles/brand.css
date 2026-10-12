@@ -1,0 +1,23 @@
+/* WKND brand tokens - extracted from the source site (migration-work/brand.json) */
+:root {
+  --heading-font-family: asar, asar-fallback, georgia, serif;
+  --body-font-family: "Source Sans Pro", source-sans-fallback, "Helvetica Neue", helvetica, arial, sans-serif;
+  --background-color: #fff;
+  --text-color: #202020;
+  --secondary-text-color: #696969;
+  --link-color: #0045ff;
+  --link-hover-color: #0045ff;
+  --accent-color: #ffea00;
+  --border-color: #ebebeb;
+  --light-color: #ebebeb;
+  --dark-color: #202020;
+  --content-max-width: 1164px;
+  --content-gutter: 14px;
+  --section-padding: 10px;
+  --heading-size-xxl: 36px;
+  --heading-size-xl: 36px;
+  --heading-size-l: 24px;
+  --heading-size-m: 20px;
+  --heading-size-s: 18px;
+  --heading-size-xs: 16px;
+}
